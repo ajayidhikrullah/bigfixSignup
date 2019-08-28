@@ -1,0 +1,45 @@
+*
+{
+	/*background-color: rgb(5,12,39);*/
+	border-radius: 20px;
+}
+
+.fill
+{
+	margin: auto;
+	background-color: lightslategrey;
+	padding: 5%;
+}
+
+.col-md-6
+{
+	margin: 0 auto;
+}
+
+h2
+{
+	color: #ffffff;
+	text-align: center;
+}
+
+label
+{
+	color: #fff;
+}
+
+button.btn.btn-signUp
+{
+	background-color: rgb(133, 58, 136);
+	color: #fff;
+	font-weight: 700;
+	border-radius: 5px;
+	width: 100px;
+	height: 50px;
+}
+
+button.btn.btn-signUp:hover
+{
+	background-color: #fff;
+	color: rgb(113, 185, 145);
+
+}
