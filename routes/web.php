@@ -17,9 +17,9 @@
 
 Route::get('/', 'DhikrController@index');
 //route for account.blade
-// Route::get('account', 'AccountController@index');
-// Route::get('account', 'AccountController@add_colum');
+Route::get('account', 'AccountController@index');
+Route::get('account', 'AccountController@add_colum');
 
 //create a signup page and submit d data to db
-// Route::get('signup', 'SignupController@signup');
-// Route::post('/create', 'SignupController@store');
+Route::get('signup', 'SignupController@signup');
+Route::post('/create', 'SignupController@store');
